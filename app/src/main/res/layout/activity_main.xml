@@ -30,12 +30,14 @@
             android:textSize="80sp" />
 
         <TextView
+            android:id="@+id/text2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="34"
             android:textSize="80sp" />
 
         <TextView
+            android:id="@+id/text3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
@@ -44,6 +46,7 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/line2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/line1"
@@ -51,17 +54,20 @@
         android:layout_gravity="center">
 
         <TextView
+            android:id="@+id/text4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="september" />
 
         <TextView
+            android:id="@+id/text5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="10 20 12" />
 
         <TextView
+            android:id="@+id/text6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="35dp"
